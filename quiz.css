@@ -1,0 +1,190 @@
+/* General Reset */
+body, h1, h2, div, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #dfffd6; /* Light green background */
+  color: #333; /* Darker text for readability */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Main Container */
+.app {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  max-width: 500px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Heading Styling */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2d6a4f;
+  border-bottom:1px solid #333;
+  padding: 28px;
+}
+
+/* Quiz Container */
+.quiz {
+  margin-top: 15px;
+}
+
+/* Question Styling */
+#question {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1b4332;
+}
+
+/* Answer Buttons */
+#answer-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Increased space between answer buttons */
+  margin-bottom: 20px; /* Add space at the bottom of the answer section */
+}
+
+button.btn {
+  background: #fff; /* Light green buttons */
+  color: #000;
+  font-size: 16px;
+  border-style: dotted;
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover:not([disabled]){
+  background: #222;
+  color: #fff;
+}
+.btn:disabled{
+  cursor:no-drop;
+}
+
+button.btn:active {
+  transform: translateY(0);
+
+}
+
+/* Next Button Styling with Arrow */
+button.next-btn {
+  background: #1b4332; /* Dark green */
+  color: #fff;
+  font-family: 'Poppins', sans-serif; 
+  width: 80px;
+  border: 2px;
+  border-radius: 8px;
+  padding: 12px 20px;
+  display: block; /* Make the button a block element */
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button.next-btn:hover {
+  background: #40916c; /* Lighter green */
+  transform: translateY(-2px);
+}
+
+button.next-btn:active {
+  background: #52b788; /* Even lighter on click */
+  transform: translateY(0);
+}
+
+
+/* Alignment for Next Button */
+#next-btn {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px; /* Larger font size for better visibility */
+}
+
+
+button.btn.correct{
+  background: #9aeabc;
+}
+
+button.btn.incorrect{
+  background: #ff9393;
+}
+
+
+/*Pre-Quiz Page Styling */
+/* Pre-Quiz Container */
+.pre-quiz-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  max-width: 500px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Header Styling */
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #2d6a4f;
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+}
+
+/* Introduction Text Styling */
+.quiz-intro {
+  font-size: 18px;
+  color: #1b4332;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.quiz-intro ul {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.quiz-intro li {
+  margin-bottom: 10px;
+}
+
+/* Start Quiz Button Styling */
+.start-quiz-btn {
+  background-color: #1b4332; /* Dark green */
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: 2px solid #1b4332;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+
+.start-quiz-btn:hover {
+  background-color: #40916c; /* Lighter green */
+  transform: translateY(-2px);
+}
+
+.start-quiz-btn:active {
+  background-color: #52b788; /* Even lighter on click */
+  transform: translateY(0);
+}
