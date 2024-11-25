@@ -262,12 +262,12 @@ input[type="number"], input[type="radio"] {
         <div class="card-container">
             <div class="card" id="total-money-card">
                 <h3>Total Money</h3>
-                <p id="total-money">$1,245.50</p>
+                <p id="total-money">$0.00</p>
         </div>
         
         <div class="card" id="total-points-card">
             <h3>Total Points</h3>
-            <p>320 Points</p>
+            <p>0 Points</p>
         </div>
     </div>
 
