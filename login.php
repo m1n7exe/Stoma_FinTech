@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Successful login
         $_SESSION['logged_in'] = true;
         $_SESSION['username'] = $username;
-        header("Location: pre-quiz.php"); // Redirect to a dashboard page after login
+        header("Location: dashboard.php"); // Redirect to a dashboard page after login
         exit();
     } else {
         // Incorrect credentials
@@ -125,7 +125,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- Sign-In Form -->
     <div class="sign-in-container">
         <div class="sign-in-form">
-            <h2 class="title">Welcome to Stoma</h2>
+            <h2 class="title">Welcome to Co-Pulse</h2>
             <!-- <h4 class ="subtext"> Singapore's First Sustainable Payment System</h4> -->
             <!-- Show error message if credentials are incorrect -->
             <?php if (isset($error_message)): ?>

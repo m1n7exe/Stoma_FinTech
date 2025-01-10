@@ -195,7 +195,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['claim'])) {
             </div>
             <div class="card">
                 <h3>Total Points</h3>
-                <p id="total-points"><?php echo $score; ?> Points</p>
+                <p id="total-points">20 Points</p>
             </div>
         </div>
 

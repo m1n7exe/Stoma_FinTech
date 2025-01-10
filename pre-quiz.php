@@ -46,7 +46,7 @@ include("header.php");
             </ul>
         </section>
 
-        <button class="start-quiz-btn" onclick="window.location.href='quiz.php'">Start Quiz</button>
+        <button class="start-quiz-btn" onclick="window.location.href='choose_deck.php'">Start Quiz</button>
     </div>
 
 

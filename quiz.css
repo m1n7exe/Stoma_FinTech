@@ -8,8 +8,8 @@ body, h1, h2, div, button {
 /* Body Styling */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #dfffd6; /* Light green background */
   color: #333; /* Darker text for readability */
+  background-color: orange; /* Orange background for the entire page */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@ body {
 
 /* Main Container */
 .app {
-  background: #fff;
+  background: orange; /* Set background to orange */
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px 30px;
@@ -80,7 +80,6 @@ button.btn {
 
 button.btn:active {
   transform: translateY(0);
-
 }
 
 /* Next Button Styling with Arrow */
@@ -107,14 +106,12 @@ button.next-btn:active {
   transform: translateY(0);
 }
 
-
 /* Alignment for Next Button */
 #next-btn {
   text-align: center;
   margin: 0 auto;
   font-size: 12px; /* Larger font size for better visibility */
 }
-
 
 button.btn.correct{
   background: #9aeabc;
@@ -125,7 +122,7 @@ button.btn.incorrect{
 }
 
 
-/*Pre-Quiz Page Styling */
+/* Pre-Quiz Page Styling */
 /* Pre-Quiz Container */
 .pre-quiz-container {
   background-color: rgba(255, 255, 255, 0.5);
