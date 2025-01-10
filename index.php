@@ -149,7 +149,7 @@ include("pre-header.php"); // Include header for PHP functionality if necessary
 
     <!-- Hero Section -->
     <section class="hero-section">
-        <h1>Welcome to Stoma</h1>
+        <h1>Welcome to CO-PULSE</h1>
     </section>
 
 
@@ -161,9 +161,9 @@ include("pre-header.php"); // Include header for PHP functionality if necessary
             </div>
             <!-- Right: Text -->
             <div class="stoma-info-content">
-                <h1>What is Stoma?</h1>
+                <h1>What is CoPulse?</h1>
                 <p>
-                    Stoma is a modern financial platform dedicated to helping you manage your finances with ease, security, and flexibility. Our mission is to provide tools that empower individuals to achieve their financial goals.
+                    CoPulse is a modern financial platform dedicated to helping you manage your finances with ease, security, and flexibility. Our mission is to provide tools that empower individuals to achieve their financial goals.
                 </p>
                 <p>
                     With innovative features and a user-friendly experience, Stoma ensures that you have everything you need to make informed financial decisions.
